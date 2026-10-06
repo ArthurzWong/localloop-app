@@ -1,0 +1,19 @@
+{
+  "name": "localloop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LocalLoop MVP — local economic discovery engine (static PWA build)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node build.mjs",
+    "smoke": "node build.mjs --smoke && node smoke.cjs"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "jsdom": "^24.1.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
