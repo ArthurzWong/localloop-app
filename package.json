@@ -6,6 +6,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "build": "node build.mjs",
+    "vercel-build": "node build.mjs",
     "smoke": "node build.mjs --smoke && node smoke.cjs"
   },
   "devDependencies": {
